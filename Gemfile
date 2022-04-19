@@ -1,7 +1,7 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", ">= 3.0.0"
 
 if RUBY_VERSION =~ /1.9/
     Encoding.default_external = Encoding::UTF_8
